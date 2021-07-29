@@ -1,0 +1,35 @@
+-add a story
+-liking etc. a post
+-suggestions
+-send post
+-account menu isn't working on user/profile pages DONE
+-story modal (with slider) DONE
+
+// if story publish time more than 24 hour delete the story 
+// if someone on user's followings shares a story, init the story
+// if user has story add border on profile page
+// if user saw others' story, init story to right side, and change border's color
+// if story belongs to user change the style of story and prepend it
+
+- {
+	hasStory: true;	
+	stories = [
+		{
+			storyPublishTime: d.getTime
+			storyImage: ''
+			usersWhoSaw: [],
+		}
+	];
+}
+
+// user image at user followings modal isn't circle DONE
+
+// fix the bugs
+// fix stroies bug
+
+// fix if user don't have profile photo stories div is going crazy
+
+// do post moda on user page
+// init post in home page
+// add adding to comment when sharing a post
+// fix posts bug when likeing a post it saved a posts and it causes a bug

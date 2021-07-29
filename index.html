@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram</title>
+	<!-- style -->
+	<!-- login style -->
+	<link rel="stylesheet" href="./loginStyle.css">
+	<!-- instagram -->
+	<link rel="stylesheet" href="./style.css">
+	<!-- stories style -->
+	<link rel="stylesheet" href="./storyStyle.css">
+	<!-- Icons -->
+	<script src="https://kit.fontawesome.com/fa178081cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="login">
+		<div class="login-header">
+			<div class="login-img-div">
+				<img src="./images/instagram-login.png" class="login-img">
+			</div>
+
+			<div class="login-div">
+				<div class="login-form">
+					<div class="login-instagram-text">Instagram</div>
+
+					<div class="login-form-area">
+						<div class="username-input-area">
+							<span class="username-placeholder">Username</span>
+							<input class="username-input" type="text">
+						</div>
+
+						<div class="password-input-area">
+							<span class="password-placeholder">Password</span>
+							<input class="password-input" type="password">
+							<span class="show-password-btn">Show</span>
+						</div>
+
+						<button disabled class="login-btn">Log In</button>
+					</div>
+
+					<div class="or-div">
+						<div class="left-line line"></div>
+						<div class="or-text">OR</div>
+						<div class="right-line line"></div>
+					</div>
+
+					<div class="login-with-facebook"><i class="fab fa-facebook-square"></i>Log in with Facebook</div>
+
+					<div class="error">Sorry, your password was incorrect. <br> Please double-check your password.</div>
+
+					<div class="forgot-password"><a href="" class="forgot-password-link">Forgot password?</a></div>
+				</div>
+
+				<div class="sign-up-div">
+					<div class="sign-up-text">Don't have an account?</div>
+					<a href="./sign-up/sign-up.html" class="sign-up-link">Sign up</a>
+				</div>
+
+				<div class="get-app-div">
+					<div class="get-app-text">Get the app.</div>
+
+					<div class="get-app-links">
+						<a href="" class="img-link"><img src="./images/apple-download.png" class="app-download-img"></a>
+						<a href="" class="img-link"><img src="./images/play-store-download.png" class="app-download-img"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="login-footer">
+			<div class="login-footer-top">
+				<a href="" class="login-footer-link">About</a>
+				<a href="" class="login-footer-link">Blog</a>
+				<a href="" class="login-footer-link">Jobs</a>
+				<a href="" class="login-footer-link">Help</a>
+				<a href="" class="login-footer-link">Privacy</a>
+				<a href="" class="login-footer-link">Terms</a>
+				<a href="" class="login-footer-link">Top Accounts</a>
+				<a href="" class="login-footer-link">Hashtags</a>
+				<a href="" class="login-footer-link">Locations</a>
+			</div>
+
+			<div class="login-footer-bottom">
+				<div class="login-footer-lang">English</div>
+				<div class="login-footer-text">© 2021 Instagram from Tech-E</div>
+			</div>
+		</div>
+	</div>	
+
+	<div class="instagram">
+		<header>
+			<div class="main-header">
+				<a href="" class="instagram-text">Instagram</a>
+				
+				<div class="search-input-div search-child">
+					<div class="input-text search-child"><i class="fas fa-search"></i> Search</div>
+					<input type="text" class="search-input search-child">
+					<div class="cancel-btn search-child"><i class="fas fa-times-circle search-child"></i></div>
+				</div>
+
+				<div class="header-menus">
+					<a href="" class="header-menu home-btn"><i class="fas fa-home"></i></a>
+					<a href="" class="header-menu messages-btn"><i class="far fa-comment"></i></a>
+					<a href="" class="header-menu explore-btn"><i class="far fa-compass"></i></a>
+					<a href="" class="header-menu activity-btn"><i class="far fa-heart"></i></a>
+					<a href="" class="header-menu account-btn"><div class="account-img"></div></a>
+				</div>
+
+			</div>
+		</header>
+
+		<div class="account-menu">
+			<a href="./account/account.html" class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="far fa-user-circle"></i></div>
+				<div class="account-menu-item-text">Profile</div>
+			</a>
+			<a href="./saved/saved.html" class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="far fa-bookmark"></i></div>
+				<div class="account-menu-item-text">Saved</div>
+			</a>
+			<a href="./settings/settings.html" class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="fas fa-cog"></i></div>
+				<div class="account-menu-item-text">Settings</div>
+			</a>
+			<div class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="fas fa-exchange-alt"></i></div>
+				<div class="account-menu-item-text">Switch Accounts</div>
+			</div>
+			<div class="account-menu-item log-out-btn">
+				<div class="account-menu-item-text">Log Out</div>
+			</div>
+		</div>
+
+		<div class="search-results search-child">
+		</div>
+
+		<div class="container">
+			<div class="posts-area">
+				<div class="stories">
+				</div>
+
+				<div class="posts">
+					<!-- <div class="post">
+						<div class="post-header">
+							<div class="post-header-info">
+								<a href="" class="post-user-img-div"><i class="fas fa-user-circle"></i></a>
+								<a href="" class="post-header-username">erdem</a>
+							</div>
+
+							<div class="post-settings"><i class="fas fa-ellipsis-h"></i></div>
+						</div>
+
+						<div class="post-container"><div class="post-img-div"></div></div>
+
+						<div class="post-footer">
+							<div class="post-footer-header">
+								<div class="post-footer-interactions">
+									<div class="post-footer-icon post-like-btn"><i class="far fa-heart"></i></div>
+									<div class="post-footer-icon post-comment-btn"><i class="far fa-comment"></i></div>
+									<div class="post-footer-icon post-share-btn"><i class="far fa-paper-plane"></i></div>
+								</div>
+
+								<div class="post-save-btn post-footer-icon"><i class="far fa-bookmark"></i></div>
+							</div>
+
+							<div class="post-like-count-text">1,000 likes</div>
+
+							<div class="post-owners-comment">
+								<a href="" class="post-owners-username">erdem</a>
+								<div class="post-owners-text">that's what's on my mind</div>
+							</div>
+
+							<div class="post-view-all-comments-btn">View all <span class="post-comment-count">23</span> comments</div>
+
+							<div class="post-comments">
+								<div class="post-comment">
+									<div class="post-comments-info">
+										<a href="" class="post-comments-owner">sivaciberk</a>
+										<div class="post-comments-text">pog mog</div>
+									</div>
+
+									<div class="like-post-comment-btn"><i class="far fa-heart"></i></div>
+								</div>
+							</div>
+
+							<div class="post-publish-date">07.18.2021</div>
+
+							<div class="post-footer-bottom">
+								<div class="emojis-btn"><i class="far fa-smile"></i></div>
+								<input type="text" placeholder="Add a comment..." class="comment-to-post-input">
+								<div class="send-comment-btn disabled">Post</div>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+
+			<div class="right-nav-bar">
+				<div class="nav-bar-header">
+					<div class="users-img"></div>
+					<div class="users-info">
+						<div class="users-username">erdemyilmaz</div>
+						<div class="users-name">Erdem Yilmaz</div>
+					</div>
+
+					<div class="switch-user-btn">Switch</div>
+				</div>
+				<div class="nav-bar-suggestions">
+					<div class="suggestions-text">Suggestions For You</div>
+					<a href="./suggestions" class="see-all-suggestions-link">See All</a>
+				</div>
+
+
+				<div class="suggestion-users">
+				</div>
+
+				<div class="nav-bar-footer">
+					<div class="nav-bar-footer-top">
+						<div class="nav-bar-footer-item">About</div>
+						<div class="nav-bar-footer-item">Help</div>
+						<div class="nav-bar-footer-item">Press</div>
+						<div class="nav-bar-footer-item">API</div>
+						<div class="nav-bar-footer-item">Jobs</div>
+						<div class="nav-bar-footer-item">Privacy</div>
+						<div class="nav-bar-footer-item">Terms</div>
+						<div class="nav-bar-footer-item">Locations</div>
+						<div class="nav-bar-footer-item">Top Accounts</div>
+						<div class="nav-bar-footer-item">Hashtags</div>
+						<div class="nav-bar-footer-item">Language</div>
+					</div>
+
+					<div class="nav-bar-footer-bottom">© 2021 INSTAGRAM FROM TECH-E</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="story-modal">
+			<div class="stories-header">
+				<div class="stories-instagram-text">Instagram</div>
+				<div class="close-story-modal-btn">X</div>
+			</div>
+
+			<ul class="stories-list">
+			</ul>
+		</div>
+
+		<div class="new-user-modal">
+			<div class="num-container">
+				<div class="num-header">
+					<div class="num-text">Set a profile picture</div>
+					<div class="close-num-btn">X</div>
+				</div>
+
+				<div class="num-body">
+					<div class="user-profile-photo-review"><img class="user-profile-photo"></div>
+					<div class="get-pp-div">
+						<div class="file-input-div">
+							<input type="file" class="file-input">
+						</div>
+
+						<div class="num-error"></div>
+
+						<div class="accept-pp-btn">Set!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="share-story-modal">
+			<div class="share-story-container">
+				<div class="share-story-header">
+					<div class="share-story-text">Share Story</div>
+					<div class="close-share-story-modal-btn">X</div>
+				</div>
+
+				<div class="share-story-form">
+					<label class="ssf-text">Please select a photo</label>
+					<input type="file" class="story-file-input">
+				</div>
+
+				<div class="share-story-preview-div">
+					Story Preview
+				</div>
+
+				<div class="share-story-btn">Share</div>
+			</div>
+		</div>
+	</div>
+
+<!-- javascripts -->
+<script src="./elements.js"></script>
+<script src="./users.js"></script>
+<script src="./input.js"></script>
+<script src="./search.js"></script>
+<script src="./init.js"></script>
+<script src="./accountMenu.js"></script>
+<script src="./login.js"></script>
+<script src="./setProfilePicture.js"></script>
+<script src="./logout.js"></script>
+<script src="./stories.js"></script>
+<script src="./shareStory.js"></script>
+
+<script src="./api.js"></script>
+</body>
+</html>

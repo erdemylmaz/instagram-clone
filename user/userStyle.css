@@ -1,0 +1,94 @@
+.user-follow-btn {
+  width: 94px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--blue);
+  color: white;
+  font-weight: 500;
+
+  border-radius: 2px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.user-settings-btn {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.following-user-menu {
+  display: none;
+}
+
+.message-user-btn {
+  width: 80px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid var(--borderColor);
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
+.unfollow-menu-btn {
+  width: 44px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+
+  background-color: #fff;
+  border: 1px solid var(--borderColor);
+  cursor: pointer;
+}
+
+.unfollow-menu-btn * {
+  margin: auto 0;
+}
+
+.fa-check {
+  font-size: 10px;
+  color: var(--textColor);
+  margin-left: 2px;
+}
+
+.common-users {
+  margin-top: 12px;
+  color: var(--textColor);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.common-users span {
+  color: black;
+}
+
+.modal-user-follow-btn {
+  margin-left: auto;
+  width: 64px;
+  height: 30px;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(64, 145, 236);
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.has-no-photo {
+  display: none;
+}

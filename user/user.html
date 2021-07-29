@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> { username } - Instagram</title>
+	<!-- main style -->
+	<link rel="stylesheet" href="../style.css">
+	<!-- some things' style -->
+	<link rel="stylesheet" href="../account/accountStyle.css">
+	<!-- this page's style -->
+	<link rel="stylesheet" href="./userStyle.css">
+	<!-- icons -->
+	<script src="https://kit.fontawesome.com/fa178081cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="user-page">
+		<div class="header">
+			<div class="main-header">
+				<a href="../index.html" class="instagram-text">Instagram</a>
+				
+				<div class="search-input-div search-child">
+					<div class="input-text search-child"><i class="fas fa-search"></i> Search</div>
+					<input type="text" class="search-input search-child">
+					<div class="cancel-btn search-child"><i class="fas fa-times-circle search-child"></i></div>
+				</div>
+
+				<div class="header-menus">
+					<a href="" class="header-menu home-btn"><i class="fas fa-home"></i></a>
+					<a href="" class="header-menu messages-btn"><i class="far fa-comment"></i></a>
+					<a href="" class="header-menu explore-btn"><i class="far fa-compass"></i></a>
+					<a href="" class="header-menu activity-btn"><i class="far fa-heart"></i></a>
+					<a href="" class="header-menu account-btn"><i class="fas fa-user-circle"></i></a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="account-menu">
+			<a href="../account/account.html" class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="far fa-user-circle"></i></div>
+				<div class="account-menu-item-text">Profile</div>
+			</a>
+			<a href="../saved/saved.html" class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="far fa-bookmark"></i></div>
+				<div class="account-menu-item-text">Saved</div>
+			</a>
+			<a href="../settings/settings.html" class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="fas fa-cog"></i></div>
+				<div class="account-menu-item-text">Settings</div>
+			</a>
+			<div class="account-menu-item">
+				<div class="account-menu-item-icon"><i class="fas fa-exchange-alt"></i></div>
+				<div class="account-menu-item-text">Switch Accounts</div>
+			</div>
+			<a href="../index.html" class="account-menu-item log-out-btn">
+				<div class="account-menu-item-text">Log Out</div>
+			</a>
+		</div>
+
+		<div class="search-results search-child">
+		</div>
+
+
+		<div class="account-info-div">
+			<div class="user-info-div">
+				<div class="user-img-div"><i class="far fa-user-circle"></i></div>
+				<div class="user-info">
+					<div class="user-info-header">
+						<div class="user-info-username">erdem</div>
+						<div class="following-user-menu">
+							<div class="message-user-btn">Message</div>
+							<div class="unfollow-menu-btn"><i class="fas fa-user"></i><i class="fas fa-check"></i></div>
+						</div>
+						<div class="user-follow-btn">Follow</div>
+						<div class="user-settings-btn"><i class="fas fa-ellipsis-h"></i></div>
+					</div>
+
+					<div class="user-stats">
+						<div class="user-post-stats user-stat"><strong class="post-count">0</strong> posts</div>
+						<div class="user-followers-stats user-stat"><strong class="follower-count">0</strong> followers</div>
+						<div class="user-following-stats user-stat"><strong class="following-count">0</strong> following</div>
+					</div>
+
+					<div class="user-name">Erdem Yilmaz</div>
+					<div class="user-bio">.</div>
+					<div class="common-users"><span class="common-user"></span><span class="common-more-count"></span> </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="account-post-categories"></div>
+
+		<div class="account-posts">
+			<div class="has-no-photo">
+				<div class="has-no-photo-top">You don't have any photo</div>
+				<div class="has-no-photo-bottom">Share your first photo</div>
+			</div>
+
+			<div class="share-new-post-div">
+				<div class="share-new-post">+</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="followers-modal modal">
+		<div class="followers-container modal-container">
+			<div class="followers-header modal-header">
+				<div class="followers-text">Followers</div>
+				<div class="close-btn close-modal-btn close-followers-btn">X</div>
+			</div>
+
+			<div class="followers-list modal-list"></div>
+		</div>
+	</div>
+
+	<div class="followings-modal modal">
+
+		<div class="followings-container modal-container">
+			<div class="followings-header modal-header">
+				<div class="followings-text">Followings</div>
+				<div class="close-btn close-modal-btn close-followings-btn">X</div>
+			</div>
+
+			<div class="followings-list modal-list"></div>
+		</div>
+	</div>
+	</div>
+
+<!-- scripts -->
+<script src="../elements.js"></script>
+<script src="../search.js"></script>
+<script src="../users.js"></script>
+<script src="../accountMenu.js"></script>
+<script src="../logout.js"></script>
+<script src="./user.js"></script>
+</body>
+</html>
